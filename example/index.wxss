@@ -1,0 +1,25 @@
+.play-btncon{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 40rpx;
+}
+.flex-btn{
+  height: 80rpx;
+  width: 80rpx;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.music-lb{
+  height:400rpx;
+  width:400rpx;
+  margin-left:auto;
+  margin-right:auto;
+}
+.slide-image{
+  width:100%;
+  height:100%;
+  border-radius:50%
+}
+
+

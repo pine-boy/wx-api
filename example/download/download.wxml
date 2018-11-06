@@ -1,0 +1,2 @@
+
+<view bindtap="downloads">点击下载文件</view>

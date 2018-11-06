@@ -1,0 +1,1 @@
+<view catchtouchstart="recorderStart" style="background:#ccc;text-align:center;line-height:100rpx;color:#fff;">{{btn}}</view>

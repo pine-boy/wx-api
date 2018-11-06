@@ -1,0 +1,12 @@
+<view class="weui-panel">
+  <view class="weui-panel__hd"></view>
+  <view class="weui-panel__bd">
+    <image mode='widthFix' src="{{src}}" style='width: 300px;'></image>
+    <button bindtap='reservationImage'></button>
+    <button bindtap="getImageInfo">getImageInfo</button>
+  </view>
+</view>
+
+<view wx:if="{{!!info}}" class='result'>
+  <text space="nbsp">{{info}}</text>
+</view>

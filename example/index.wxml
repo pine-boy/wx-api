@@ -1,0 +1,37 @@
+<view class="page">
+    <!-- 歌曲图片 -->
+    <swiper class="music-lb" circular="{{circular}}" bindchange="bindchange" current="{{current}}"  duration="{{duration}}">
+      <block wx:for="{{audioList}}" wx:key="{{index}}">
+        <swiper-item>
+          <image src="{{item.bgimage}}" class="slide-image"/>
+        </swiper-item>
+      </block>
+    </swiper>
+
+    <!-- 播放条 -->
+    <view class="section section_gap">
+      <text class="section__title">设置最小/最大值</text>
+      <view class="body-view">
+        <view>{{songcurrentTime}}</view>
+          <slider bindchange="sliderChange" value="30" max="{{songDuration}}"/>
+        <view>{{songDuration}}</view>
+      </view>
+    </view>
+
+
+    <!-- 操作按钮 -->
+    <view class="play-btncon">
+      <view class="flex-btn" bindtap='prevAudio' style="background-image: url(../../../images/prev.png)"></view>
+      <view class="flex-btn" bindtap="playAudio" style="background-image: url(../../../images/play.png)"></view>
+      <view class="flex-btn" bindtap="nextAudio" style="background-image: url(../../../images/next.png)"></view>
+    </view>
+    
+
+
+
+    
+
+    <!-- <view class="text-center" bindtap="requestList">
+      点击测试
+    </view> -->
+</view>

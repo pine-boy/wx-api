@@ -1,0 +1,3 @@
+<view bindtap="newOpen">新页面打开文件</view>
+<view bindtap="getFileList">获取本地缓存列表</view>
+
