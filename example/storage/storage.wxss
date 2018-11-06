@@ -1,0 +1,9 @@
+/* example/storage/storage.wxss */
+view{
+  background: green;
+  color: #fff;
+  font-size: 30rpx;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 10px;
+}

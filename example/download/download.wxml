@@ -1,2 +1,2 @@
-
-<view bindtap="downloads">点击下载文件</view>
+<button bindtap='down_file'>下载</button>
+<view><image src='{{img_l}}' bindtap='preview_img'></image></view>

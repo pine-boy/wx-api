@@ -1,0 +1,9 @@
+/* example/equipment/equipment.wxss */
+view{
+  font-size: 30rpx;
+  line-height: 40px;
+  background: green;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+}

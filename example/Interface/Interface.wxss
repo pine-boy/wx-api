@@ -1,0 +1,9 @@
+/* example/Interface/Interface.wxss */
+view{
+  line-height: 40px;
+  color: #fff;
+  background: green;
+  text-align: center;
+  font-size: 30rpx;
+  margin-bottom: 10px;
+}

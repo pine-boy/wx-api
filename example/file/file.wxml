@@ -1,3 +1,14 @@
-<view bindtap="newOpen">新页面打开文件</view>
-<view bindtap="getFileList">获取本地缓存列表</view>
+<view class="upload" bindtap="chooseImg">
+  <view style="text-align:center;">
+    <image src="../../images/file.png"></image>
+    <view>请选择文件</view>
+  </view>
+</view>
+<view class="previImg">
+  <image wx:for="{{imgList}}" wx:key="{{index}}" src="{{item}}"></image>
+</view>
+<view bindtap='saveFile' class="pucbtn">保存文件</view>
+<view bindtap='getFileList' class="pucbtn">查看本地缓存列表</view>
+<view bindtap='deleteFile' class="pucbtn">删除文件</view>
+<view bindtap="newOpen" class="pucbtn">新页面打开文件</view>
 

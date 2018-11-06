@@ -1,1 +1,26 @@
 /* example/file/file.wxss */
+.upload{
+  display: flex;
+  height: 600rpx;
+  background: #f1f1f1;
+  justify-content: center;
+  align-items: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.upload image{
+  height: 48px;
+  width: 48px;
+}
+.pucbtn{
+  background: #00c777;
+  color: #fff;
+  text-align: center;
+  font-size: 28rpx;
+  line-height: 36px;
+  margin-top: 10px;
+}
+.previImg image{
+  width: 250rpx;
+  height: 250rpx;
+}

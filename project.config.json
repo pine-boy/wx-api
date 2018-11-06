@@ -4,7 +4,7 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
@@ -13,7 +13,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.3.2",
 	"appid": "wxa92f7ed5020800ba",
-	"projectname": "weui",
+	"projectname": "wx-api",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

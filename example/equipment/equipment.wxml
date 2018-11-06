@@ -1,0 +1,3 @@
+<!--example/equipment/equipment.wxml-->
+<view bindtap="phoneCall">拨打电话</view>
+<view bindtap="scanCode">扫描二维码</view>

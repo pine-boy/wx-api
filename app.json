@@ -1,13 +1,17 @@
 {
   "pages": [
-    "example/download/download",
+    "example/Interface/Interface",
+    "example/tabBar/tabBar",
+    "example/equipment/equipment",
+    "example/location/location",
+    "example/storage/storage",
     "example/file/file",
+    "example/download/download",
     "example/image/image",
     "example/video/video",
     "example/camera/camera",
     "example/index",
     "example/recorder/recorder"
-    
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -20,6 +24,23 @@
     "connectSocket": 10000,
     "uploadFile": 10000,
     "downloadFile": 10000
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "example/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "example/location/location",
+        "text": "设置"
+      },
+      {
+        "pagePath": "example/file/file",
+        "text": "文件"
+      }
+    ]
   },
   "debug": true
 }

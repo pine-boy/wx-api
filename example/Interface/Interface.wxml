@@ -1,0 +1,5 @@
+<view bindtap="actionSheet">操作菜单</view>
+<view bindtap="showModal">模态对话框</view>
+<view bindtap="showToast">消息提示框</view>
+<import src="../tabBar/tabBar.wxml" />  
+<template is="tabBar" data="{{tabBar: tabBar}}" /> 

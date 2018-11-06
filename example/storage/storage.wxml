@@ -1,0 +1,5 @@
+<view bindtap="storage">添加本地缓存</view>
+<view bindtap="deleteStorage">删除本地缓存</view>
+<view bindtap="getStorage">获取指定Key</view>
+<view bindtap="getStorageInfo">异步获取当前storage的相关信息</view>
+<view bindtap="clearStorageInfo">清除缓存</view>
