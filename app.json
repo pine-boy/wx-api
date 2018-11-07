@@ -1,5 +1,6 @@
 {
   "pages": [
+    "example/openInterface/openInterface",
     "example/Interface/Interface",
     "example/tabBar/tabBar",
     "example/equipment/equipment",

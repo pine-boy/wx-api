@@ -1,0 +1,7 @@
+<view bindtap="getToken">AccessToken</view>
+<view bindtap="getInfo">获取当前账号信息</view>
+<view bindtap="chooseAddress">获取收获信息</view>
+<view bindtap="authorize">授权</view>
+<view bindtap='getOpenId'>获取openId</view>
+<view bindtap="custom">客服消息</view>
+<button open-type="contact" bindcontact="handleContact">客服消息2</button> 
