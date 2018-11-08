@@ -31,7 +31,11 @@
 
     
 
-    <!-- <view class="text-center" bindtap="requestList">
+    <!-- <view class="text-center" bindtap="requestLi st">
       点击测试
     </view> -->
+    <button type="primary"> ClickMe! </button>
+    <view>{{paramBtoA}}</view>
+    <common comtext="这是父组件传过来的参数" bind:myevent="onMyEvent"></common>
+    
 </view>

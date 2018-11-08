@@ -2,7 +2,6 @@
 var backAudio = wx.getBackgroundAudioManager()
 var audioUrl = ''   
 var imageUrl = ''
-
 Page({
   /**
    * 页面的初始数据
@@ -154,7 +153,21 @@ Page({
     //获取歌曲URL
     audioUrl = this.data.audioList[this.data.current].url
     backAudio.src = audioUrl
-  }
+  },
+  //子组件向父组件传参自定义事件
+  onMyEvent(e){
+    this.setData({
+      paramBtoA: e.detail.paramBtoA
+    })
+    console.log(e.detail.paramBtoA);
+  },
+  onReady: function () {
+   
+  },
+
+
+
+
 })
 
 

@@ -1,0 +1,8 @@
+<!--example/jpage1/jpage1.wxml-->
+<text bindtap='goPage2'>跳转到page2</text>
+<view bindtap='goIndex'>跳转到index,关闭当前页</view>
+<view>tab切换</view>
+<view>
+  <navigator url="../jpage1/jpage1" open-type="switchTab">页面1</navigator>
+  <navigator url="../jpage2/jpage2" open-type="switchTab">页面2</navigator>
+</view>

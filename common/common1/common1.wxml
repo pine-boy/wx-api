@@ -1,0 +1,9 @@
+<!--components/Dialog/dialog.wxml-->
+<view class="com">
+    <view style="height:400rpx;background:#e1e1e1;padding:30px 0 0 30px;">这是子组件
+      <view>{{comtext}}</view>
+      <button bindtap='change'>点我向A中传入参数</button>
+    </view>
+    
+</view>
+

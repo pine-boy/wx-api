@@ -1,13 +1,23 @@
-// example/tabBar/tabBar.js
+// example/jpage1/jpage1.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    
-  },
 
+  },
+  goPage2(){
+    wx.navigateTo({
+      url: '../jpage2/jpage2?id=1'
+    })
+  },
+  //跳转到index，关闭当前页面
+  goIndex(){
+    wx.redirectTo({
+      url: '../jpage2/jpage2?id=1'
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

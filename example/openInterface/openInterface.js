@@ -1,4 +1,6 @@
 // example/openInterface/openInterface.js
+var appInstance = getApp();
+console.log(appInstance.globalData);
 Page({
 
   /**
@@ -6,6 +8,10 @@ Page({
    */
   data: {
 
+  },
+  //转发按钮
+  onShareAppMessage(res){
+    console.log(res);
   },
   //AccessToken
   getToken(){
@@ -83,6 +89,10 @@ Page({
         "command": "Typing"
       }
     })
+  },
+  //监听页面下拉
+  onPullDownRefresh(res){
+    alert(res);
   }
     
   

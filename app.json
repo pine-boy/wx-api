@@ -1,5 +1,7 @@
 {
   "pages": [
+    "example/index",
+    "example/jpage1/jpage1",
     "example/openInterface/openInterface",
     "example/Interface/Interface",
     "example/tabBar/tabBar",
@@ -11,8 +13,9 @@
     "example/image/image",
     "example/video/video",
     "example/camera/camera",
-    "example/index",
-    "example/recorder/recorder"
+    "example/recorder/recorder",
+    "example/jpage2/jpage2",
+    "common/common1/common1"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -27,18 +30,25 @@
     "downloadFile": 10000
   },
   "tabBar": {
+    "color": "#666",
     "selectedColor": "#1296db",
     "list": [
       {
+        "iconPath": "images/index.png",
         "pagePath": "example/index",
+        "selectedIconPath": "images/index1.png",
         "text": "首页"
       },
       {
+        "iconPath": "images/sz.png",
+        "selectedIconPath": "images/sz1.png",
         "pagePath": "example/location/location",
         "text": "设置"
       },
       {
-        "pagePath": "example/file/file",
+        "iconPath": "images/wj.png",
+        "selectedIconPath": "images/wj1.png",
+        "pagePath": "example/camera/camera",
         "text": "文件"
       }
     ]

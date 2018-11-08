@@ -5,3 +5,4 @@
 <view bindtap='getOpenId'>获取openId</view>
 <view bindtap="custom">客服消息</view>
 <button open-type="contact" bindcontact="handleContact">客服消息2</button> 
+<button open-type='share'>转发</button>
